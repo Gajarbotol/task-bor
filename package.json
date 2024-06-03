@@ -2,9 +2,12 @@
   "name": "task-management-bot",
   "version": "1.0.0",
   "description": "A simple task management bot for Telegram",
-  "main": "bot.js", // replace with your main bot file name
+  "main": "bot.js",
   "scripts": {
-    "start": "node bot.js" // replace with your main bot file name
+    "start": "node bot.js" 
+  },
+  "engines": {
+    "node": "14.x"
   },
   "dependencies": {
     "express": "^4.17.1",
